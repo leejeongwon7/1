@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            .btnRed {
+                width: 90px;
+                padding: 5px 5px 5px 5px;
+                background-color: #ff0000;
+                border: 1px solid #000000;
+                border-radius: 5px;
+                text-align: center;  
+                cursor: pointer;
+            }
+
+            .btnBlue {
+                width: 100px;
+                height: 50px;
+                background-color: #00ffff;
+                border: 1px solid #000000;
+                border-radius: 5px;
+                text-align: center;
+                display: table-cell; 
+                vertical-align: middle;
+            }
+
+
+            .btnGreen {
+                width: 100px;
+                height: 50px;
+                /* padding: 5px 5px 5px 5px; */
+                background-color: #00ff00;
+                border:1px solid #000000;
+                border-radius: 5px;
+                text-align: center;
+                cursor: pointer;
+              
+            }
+
+            .btnGreen:hover {
+                width: 100px;
+                border:1px solid #ff00ff;
+                background-color: #00c500;
+            }
+
+
+            .btn-login {
+                display: inline-block;
+                width: 100px;
+                height: 50px;
+               
+                border:1px solid #000000;
+                background-color: #ff0000;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+           
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="btnRed">저장버튼</div>
+        <br>
+        <div class="btnBlue">저장버튼</div>
+        <br>
+
+        <button class="btnGreen" type="submit">저장버튼</button>
+        <br>
+        <br>
+        <a class="btn-login" href="">로그인하기</a>
+    </body>
+
+</html>
